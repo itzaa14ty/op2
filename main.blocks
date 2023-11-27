@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=";B+pl@VCPz-+W!~7MT.Q">list</variable><variable type="RadioMessage" id="JKe$uy:mGI)^Im=JGBPI">0message1</variable><variable type="RadioMessage" id="H9O`lI+@2k47AW7U[^uf">0Go</variable></variables><block type="device_button_event" id="KK.C%GaLGW/v?@h!^?//" x="-378" y="-774"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="music_playable_play" id="4,YC2=bLHa_?rEc^w;0v"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="t127;ySN7Pi?kpcZ2(GQ"><value name="melody"><shadow type="melody_editor" id="l3,{bU7[!Q?oxY6a}aL4"><field name="melody">"A B A B A B A B "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="-G|m#SZva%fzV]Srx*!y"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">300</field></shadow></value></shadow></value><next><block type="servoservosetangle" id="Pn8WHXmN83NIYSK,!n%D"><field name="servo">servos.P1</field><value name="degrees"><shadow type="protractorPicker" id="f4#;7MaPaY6n;?psPPuN"><field name="angle">90</field></shadow></value><next><block type="device_show_leds" id="zU(e:C,Xy{cJ2duPGH-}"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_pause" id="~)5)F;]Mz0II+dA;bTg3"><value name="pause"><shadow type="timePicker" id="*At$Lw_|0qag2LA5#smu"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="g?cdCO|PGobiD1DzpVE-"><field name="LEDS">`
+        # . . # . 
+        # . # . . 
+        # # . . . 
+        # . # . . 
+        # . . # .
+        `</field><next><block type="device_clear_display" id="@A+iFaA?qlY]QYZOP?hk"><next><block type="device_show_leds" id="5}[dbG!AySU(YdX+jXkJ"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="rcR.9KoXaO99x9Qe2[2q"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="lz$YeX50|i=GQI$TBnrS" x="350" y="-793"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="music_playable_play" id="45+ixQg[O.q4?.j`yRrJ"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="music_string_playable" id="1BayB}!a?Z:d:Ya|9bu="><value name="melody"><shadow type="melody_editor" id="OZM6[5R|Sdy:00HDB;*?"><field name="melody">"C5 C5 G G C5 C5 G G "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="3vYZ,MKA~YZ!ZAeuE,AJ"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></shadow></value><next><block type="device_show_leds" id="Hwv@^e7An]K`-.*W*22X"><field name="LEDS">`
+        # . . . # 
+        # # . . # 
+        # . # . # 
+        # . . # # 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="xoDfQh`+;ocRwayAW@y$"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="X5_9mi(Nm#^5okHPIfBT"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="0FPu*V4@Rj$KCj:4f=15"><next><block type="basic_show_icon" id="Un!@zqJ,v,pwQ(HkZ)H6"><field name="i">IconNames.No</field><next><block type="device_clear_display" id="V8{0p5h7?u*4)AD4z-Ag"></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="every_interval" id="n.(OVynJxwkvoI~Z+_h[" x="0" y="0"><value name="interval"><shadow type="longTimePicker" id="x=6K`[g?Ga,]8~|ct`n6"><field name="ms">3000</field></shadow></value><statement name="HANDLER"><block type="servoservosetangle" id="6INqxF6l?QI9J%hAyl|B"><field name="servo">servos.P1</field><value name="degrees"><shadow type="protractorPicker" id="=#q$7=@G191XDb}K6B|b"><field name="angle">0</field></shadow></value></block></statement></block></xml>
